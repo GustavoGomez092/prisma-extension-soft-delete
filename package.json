@@ -1,6 +1,6 @@
 {
-  "name": "prisma-extension-soft-delete-typegraphql-prisma",
-  "version": "1.0.0-semantically-released",
+  "name": "prisma-extension-soft-delete-typegraphql",
+  "version": "1.0.1",
   "description": "Prisma extension for soft deleting records",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
