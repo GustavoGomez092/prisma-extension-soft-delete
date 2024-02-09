@@ -135,7 +135,7 @@ export function createSoftDeleteExtension({
               const modifyResult =
                 modifyResultByModel[params.model || ""]?.[params.operation];
 
-              if (!modifyResult) return result;
+              if (!modifyResult) return typeof Object.values(result)[0] === 'object' ? Object.values(result)[0] : result;
 
               return modifyResult(result, params, ctx);
             },
